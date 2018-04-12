@@ -11,7 +11,7 @@ Những từ khóa như “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”,
 
 5. Phiên bản 1.0.0 định nghĩa 1 API công khai. Cái cách mà số của phiên bản được tăng sau môi lần phát hành phụ thuộc vào chính API công khai này và cách nó được sửa đổi ra sao.
 
-6. Phiên bản vá Z(x.y.z | x > 0) phải tăng chỉ khi 1 bản sửa lỗi tương thích với các bản trước đó được giới thiệu. Một sửa lỗi được định nghĩa là một sự thay đổi bên trong và nó đã sửa những hành vi không đúng.
+6. Phiên bản vá Z(x.y.z | x > 0) phải tăng chỉ khi 1 bản sửa lỗi tương thích với các bản trước đó được giới thiệu. Một sửa lỗi được định nghĩa là một sự thay đổi bên trong và nó đã sửa những hành vi không chính xác.
 
 7. Phiên bản phụ Y (x.Y.z | x > 0) phải được tăng, nếu có một chức năng mới nhưng vẫn tương thích với các phiên bản trước đó được giới thiệu trong API công khai. Nó phải được tăng nếu có bất kỳ chức năng nào của API công khai được đánh dấu là không tán thành. Nó có thể tăng nếu 1 chức năng hay cải tiển mới và quan trọng được giới thiệu trong code riêng tư. Nó cũng có thể bao gồm các thay đổi ở mức vá. Phiên bản vá phải được đặt lại về 0 khi phiên bản phụ được tăng.
 
